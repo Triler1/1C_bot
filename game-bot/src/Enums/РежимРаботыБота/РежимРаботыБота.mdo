@@ -33,4 +33,11 @@
       <value>Тест с расшифровкой</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="63884b19-1a69-4658-b56c-a870872c7895">
+    <name>МойРежимГайд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мой режим гайд</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
