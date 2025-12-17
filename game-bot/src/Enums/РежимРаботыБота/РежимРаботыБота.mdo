@@ -40,4 +40,11 @@
       <value>Мой режим гайд</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="183864ce-a717-47a6-a67f-e8bfdb94cef1">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
