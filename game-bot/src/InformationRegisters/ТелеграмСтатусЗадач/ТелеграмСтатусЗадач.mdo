@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b51a2f4-dafc-440a-bd8b-31bf0e7b38ab">
+  <producedTypes>
+    <selectionType typeId="573aaea8-712d-410f-8236-527891f75eb8" valueTypeId="eee764c6-1478-4b07-8c38-e84dc7788dc3"/>
+    <listType typeId="fa72f4f8-55b9-46b3-a4b8-0c8dd744184e" valueTypeId="5836bc8a-7f61-4f37-b164-29bb87357967"/>
+    <managerType typeId="d7352a86-26db-44ab-9ac5-5a6ccd01cd8d" valueTypeId="5a77d9b6-7f0a-4968-90f9-24852a8f203a"/>
+    <recordSetType typeId="59ba4985-4f98-4e79-a19a-982b7672dc55" valueTypeId="25767e12-f3d0-4308-b293-32ff5b51fddc"/>
+    <recordKeyType typeId="e6baa094-a758-4bda-ac5c-ea799349c02c" valueTypeId="758a1bd4-be17-41df-9ba8-c06c1829c540"/>
+    <recordType typeId="6773dd3e-87a0-4b7d-8041-c1856f689c5d" valueTypeId="4dd43f63-a50a-4f76-96ca-38064de984ee"/>
+    <recordManagerType typeId="5e871ab4-bde4-48e5-b9cf-7b4897b3145c" valueTypeId="b7b4adec-dcd2-4fbb-a571-d4292417d979"/>
+  </producedTypes>
+  <name>ТелеграмСтатусЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм статус задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a2cd23fa-7aa9-4270-9cb0-126c86628e82">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d5841b12-5042-4e13-a504-9152dec1e46d">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="dcc574b7-64b2-4a9b-bc30-30ae96b6210b">
+    <name>ChatID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chat ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1d207ac7-e4c1-434e-89fd-9124566d57f2">
+    <name>Чат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТелеграмЧаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d7bc7c95-99eb-4a3f-ae2a-02241202213f">
+    <name>НомерЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер задания</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="65b142d3-ce5e-4da5-9eaf-edeea5effb06">
+    <name>Профессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

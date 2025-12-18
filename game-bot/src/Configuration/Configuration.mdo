@@ -75,4 +75,6 @@
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаТестаСРасшифровкой</dataProcessors>
   <informationRegisters>InformationRegister.СтатусыТестаСРасшифровкой</informationRegisters>
+  <informationRegisters>InformationRegister.ТелеграмСтатусЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.ТелеграмСостояние</informationRegisters>
 </mdclass:Configuration>

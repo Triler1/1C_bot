@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab9b4351-c341-4b40-9a00-5c7e868d8022">
+  <producedTypes>
+    <selectionType typeId="5cfa8e07-d058-401f-8c4d-c8134d09667e" valueTypeId="1fb45456-530b-45cc-9c35-926e05057f5a"/>
+    <listType typeId="692dde36-1bc2-4183-9883-2f65f8b98d88" valueTypeId="c271834d-e795-4331-97a0-7803b642668f"/>
+    <managerType typeId="6171bb79-60fb-4d36-bd82-ad62beaea91d" valueTypeId="6723b515-6278-4b6f-b349-545262e6cfb2"/>
+    <recordSetType typeId="b96734cc-1b08-4f4b-af63-0c9f0e1fa442" valueTypeId="1fcd655b-bb69-4cca-826f-861fd5554393"/>
+    <recordKeyType typeId="9f181c9d-063c-42ef-9490-64702a8abe15" valueTypeId="ad5ee0af-acc7-4aa8-9aff-54345bca8ed2"/>
+    <recordType typeId="6d6c263c-fc4b-4f50-939b-4032052e5c3f" valueTypeId="f9bfc085-079f-4f3f-9854-8a0293d75c5e"/>
+    <recordManagerType typeId="eedd68fd-cae6-4bfb-952a-49f9ae61723f" valueTypeId="3929c569-bd10-45c9-abcd-b0798bec6adf"/>
+  </producedTypes>
+  <name>ТелеграмСостояние</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм состояние</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4b8ebfb7-88e8-4fce-8301-0f6fc0978693">
+    <name>Профессия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1881a212-571d-49bb-94e7-6ae8c5c862be">
+    <name>ВопросНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fcb6bbc9-bbcd-44db-9e36-4bc48994b714">
+    <name>Чат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТелеграмЧаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
